@@ -1,5 +1,6 @@
 var greeting = function() {
-  document.getElementById("output").innerHTML = "<h1>Welcome " + this.firstName + " " + this.lastName + "!</h1>";
+  document.getElementById("output").innerHTML = "<h1>Welcome " + 
+    this.firstName + " " + this.lastName + "!</h1>";
 }
 
 var NameBlock = function(firstName, lastName) {
